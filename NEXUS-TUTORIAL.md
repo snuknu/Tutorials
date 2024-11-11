@@ -47,6 +47,7 @@ A senha de usuario administrador padrão pode ser configurada no arquivo ``admin
 
 ![image](https://github.com/user-attachments/assets/9720efc6-df5b-4425-81aa-3c1a6b3964aa)
 
+Obs: Após o login, o Nexus exigirá que a senha de adminstrador seja modificada imediatamente.
 
 
 
