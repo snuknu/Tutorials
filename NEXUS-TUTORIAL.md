@@ -54,7 +54,8 @@ Após logar é possível acessar os repositórios padrões criados pelo Nexus.
 
 ![image](https://github.com/user-attachments/assets/28b0e993-715f-4491-a5f7-d3d33ffcab6a)
 
-
+## Deploy no Nexus com Maven.
+É possível realizar
 
 
 
