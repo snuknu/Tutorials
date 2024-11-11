@@ -40,9 +40,11 @@ O executável ``nexus.exe`` pode ser usado para gerenciar o Nexus como um servi�
 
 ## Acesso
 Uma vez instalado o Nexus ficar disponível localmente pela url http://localhost:8081.
+
 ![image](https://github.com/user-attachments/assets/98e7c9b1-987e-43d5-84eb-7489cd930c81)
 
-A senha de usuario administrador padrão pode ser configurada no arquivo ``admin.password`` encontrado no ``<diretorio-de-insalacao>\sonatype-work\nexus3\admin.password``
+A senha de usuario administrador padrão pode ser configurada no arquivo ``admin.password`` encontrado no ``<diretorio-de-insalacao>\sonatype-work\nexus3\admin.password``.
+
 ![image](https://github.com/user-attachments/assets/9720efc6-df5b-4425-81aa-3c1a6b3964aa)
 
 
