@@ -34,5 +34,5 @@ Iniciar o gerenciador de repositório com o comando run o deixará em execução
 - ```/force-reload```
 - ```/status```
 
-O nexus.exe executável pode ser usado para gerenciar o Nexus como um serviço com os comandos listados acima.
+O executável ``nexus.exe`` pode ser usado para gerenciar o Nexus como um serviço com os comandos listados acima.
 
