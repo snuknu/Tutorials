@@ -49,6 +49,14 @@ A senha de usuario administrador padrão pode ser configurada no arquivo ``admin
 
 Obs: Após o login, o Nexus exigirá que a senha de adminstrador seja modificada imediatamente.
 
+## Repositórios
+Após logar é possível acessar os repositórios padrões criados pelo Nexus.
+
+![image](https://github.com/user-attachments/assets/28b0e993-715f-4491-a5f7-d3d33ffcab6a)
+
+
+
+
 
 
 
