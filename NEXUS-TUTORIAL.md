@@ -18,7 +18,7 @@ As configurações básicas de execução do Nexus, como o número de porta dent
 - Diretório de configuração: ``..\nexus-3.74.0-05\etc``
 
 ## Execução
-O executável nexus.exe do Nexus pode ser encontrado dentro do diretório bin e pode ser executado como aplicativo ou como serviço.
+O executável ``nexus.exe`` do Nexus pode ser encontrado dentro do diretório bin e pode ser executado como aplicativo ou como serviço.
 Diretório de execução: ``..\nexus-3.74.0-05\bin``
 
 ### Executar como *aplicativo*
