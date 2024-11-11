@@ -10,7 +10,7 @@ Os downloads do Sonatype Nexus Repository estão disponíveis em: [https://help.
 [https://download.sonatype.com/nexus/3/nexus-3.74.0-05-unix.tar.gz](https://download.sonatype.com/nexus/3/nexus-3.74.0-05-unix.tar.gz).
 
 ## Configuração
-De acordo com a documentação oficial, o *Nexus* não deve ser instalado no diretório *Program Files*  para evitar problemas com a virtualização do registro de arquivos do Windows.
+De acordo com a documentação oficial, o *Nexus* não deve ser instalado no diretório ``Arquivos de Programas``  para evitar problemas com a virtualização do registro de arquivos do Windows.
 
 É recomendado usar eg, ``C:\nexus`` ou algo semelhante, garantindo que o usuário que executa o aplicativo tenha acesso total.
 
