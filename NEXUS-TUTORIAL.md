@@ -14,8 +14,10 @@ Eles contêm todos os recursos necessários para instalar e executar o Sonatype 
 O arquivo zip pode ser descompactado usando o utilitário de compactação do Windows ou um utilitário de terceiros, como o 7zip.
 
 ## Configuração
-De acordo com a documentação oficial o *Nexus* não deve ser instalado no diretório *Program Files*  para evitar problemas com a virtualização do registro de arquivos do Windows.
+De acordo com a documentação oficial, o *Nexus* não deve ser instalado no diretório *Program Files*  para evitar problemas com a virtualização do registro de arquivos do Windows.
 
 É recomendado usar eg, C:\nexus ou algo semelhante, garantindo que o usuário que executa o aplicativo tenha acesso total.
+
+As configurações básicas de execução do Nexus, como o número de porta dentre outras, está disponivel em ``\nexus-3.74.0-05\etc``.
 
 
