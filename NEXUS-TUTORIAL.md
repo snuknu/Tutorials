@@ -39,7 +39,7 @@ Iniciar o gerenciador de repositório com o comando run o deixará em execução
 O executável ``nexus.exe`` pode ser usado para gerenciar o Nexus como um serviço com os comandos listados acima.
 
 ## Acesso
-Uma vez instalado o Nexus ficar disponível localmente pela url http://localhost:8081.
+Uma vez instalado, o Nexus fica acessível localmente pela url http://localhost:8081.
 
 ![image](https://github.com/user-attachments/assets/98e7c9b1-987e-43d5-84eb-7489cd930c81)
 
