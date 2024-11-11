@@ -17,6 +17,8 @@ De acordo com a documentação oficial, o *Nexus* não deve ser instalado no dir
 As configurações básicas de execução do Nexus, como o número de porta dentre outras, podem ser editadas no arquivo ``nexus-default.properties``.
 - Diretório de configuração: ``..\nexus-3.74.0-05\etc``
 
+Obs: Por padrão, o nexus vem configurado para executar na porta *8081*.
+
 ## Execução
 O executável ``nexus.exe`` do Nexus pode ser encontrado dentro do diretório bin e pode ser executado como aplicativo ou como serviço.
 Diretório de execução: ``..\nexus-3.74.0-05\bin``
@@ -35,4 +37,15 @@ Iniciar o gerenciador de repositório com o comando run o deixará em execução
 - ```/status```
 
 O executável ``nexus.exe`` pode ser usado para gerenciar o Nexus como um serviço com os comandos listados acima.
+
+## Acesso
+Uma vez instalado o Nexus ficar disponível localmente pela url http://localhost:8081.
+![image](https://github.com/user-attachments/assets/98e7c9b1-987e-43d5-84eb-7489cd930c81)
+
+A senha de usuario administrador padrão pode ser configurada no arquivo ``admin.password`` encontrado no ``<diretorio-de-insalacao>\sonatype-work\nexus3\admin.password``
+![image](https://github.com/user-attachments/assets/9720efc6-df5b-4425-81aa-3c1a6b3964aa)
+
+
+
+
 
