@@ -19,6 +19,7 @@ Obs: Por padrão, o nexus vem configurado para executar na porta *8081*.
 
 ## Execução
 O executável ``nexus.exe`` do Nexus pode ser encontrado dentro do diretório bin e pode ser executado como aplicativo ou como serviço.
+
 Diretório de execução: ``..\nexus-3.74.0-05\bin``
 
 ### Executar como *aplicativo*
