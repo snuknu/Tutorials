@@ -108,7 +108,23 @@ Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes 
 ```
 
 ### Realizando o deploy de um projeto.
-Um vez com o ``settings.xml`` do maven configurado, na raiz do seu projeto java, onde encontra-se o arquivo ``pom.xml``, execute o seguinte comando para fazer o upload para o Nexus.
+Um vez com o ``settings.xml`` do maven configurado, na raiz do seu projeto java, onde encontra-se o arquivo ``pom.xml``, execute o seguinte comando para fazer o upload para o Nexus:
 ```shell
 mvn deploy -DaltDeploymentRepository=id-do-repositorio::default::http://localhost:8081/repository/maven-releases/
 ```
+
+### Realizando o deploy de um artefato isolado.
+É possivel fazer o upload de artefatos isolados no nexus a partir do maven, para isso basta executar o seguinte comando:
+```shell
+mvn deploy:deploy-file `
+"-Durl=http://localhost:9091/repository/maven-releases/" `
+"-Dfile=nome-do-arquivo.jar" `
+"-DgeneratePom=true" `
+"-DgroupId=com.exemplo" `
+"-Dclassifier=classificacao-opcional" `
+"-DartifactId=meu-artefato" `
+"-Dpackaging=jar" `
+"-Dversion=1.0" `
+"-DrepositoryId=identificador-do-repositorio"
+```
+Obs: Use ``[espaço] + ``` para comandos multi-linha no shell, e ``[espaço] + /`` para comandos multi-linha no linux.
