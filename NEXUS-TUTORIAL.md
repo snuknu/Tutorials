@@ -50,14 +50,60 @@ A senha de usuario administrador padrão pode ser configurada no arquivo ``admin
 Obs: Após o login, o Nexus exigirá que a senha de adminstrador seja modificada imediatamente.
 
 ## Repositórios
-Após logar é possível acessar os repositórios padrões criados pelo Nexus.
+Após logar no Nexus é possível ver a lista de reposiórios criados por padrão como demonstrado abaixo.
 
 ![image](https://github.com/user-attachments/assets/28b0e993-715f-4491-a5f7-d3d33ffcab6a)
 
 ## Deploy no Nexus com Maven.
-É possível realizar
+Para realizar deploy de projetos maven para o repositório Nexus os seguintes passos devem ser seguidos:
 
+1. No arquivo ``settings.xml`` de sua configuração local do maven crie um novo ``profile`` com as configurações do repositório Nexus. 
+```
+</profiles>
 
+  ...
 
+  <profile>
+    <id>identificador-do-perfil</id>
+    <repositories>
+      <repository>
+        <id>identificador-do-repositorio</id>
+        <name>Nome do Repositorio</name>
+        <url>http://localhost:8081/repository/maven-public/</url>
+        <releases><enabled>true</enabled><updatePolicy>always</updatePolicy></releases>
+        <snapshots><enabled>true</enabled><updatePolicy>always</updatePolicy></snapshots>
+      </repository>
+    </repositories>
+  </profile>
 
+</profiles>
+```
+
+2. Ainda no arquivo ``settings.xml`` indique quais repositórios dos perfis configurados deseja utilizar.
+```
+<servers>
+
+  ...
+
+	<server>
+		<id>sansuy-repository</id>
+		<username>admin</username>
+		<password>Warp6460</password>
+	</server>
+
+</servers>
+```
+
+3. Por fim, indique no mesmo arquivo, qual perfil de configuração você deseja utilizar. Essa configuração, se feita no ``settings.xml``, aplíca-se à todos os projetos que o apontam. Se preferir, você pode informar diretamente no ``pom.xml`` dos seus projetos, quais perfis deseja usar.
+```
+</settings>
+
+  ...
+
+	<activeProfiles>
+		<activeProfile>sansuy-profile</activeProfile>
+	</activeProfiles>
+
+</settings>
+```
 
