@@ -56,7 +56,7 @@ Após logar no Nexus é possível ver a lista de reposiórios criados por padrã
 Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes passos devem ser seguidos:
 
 1. No arquivo ``settings.xml`` de sua configuração local do maven crie um novo ``profile`` com as configurações do repositório Nexus. 
-```
+```xml
 </profiles>
 
   ...
@@ -78,7 +78,7 @@ Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes 
 ```
 
 2. Ainda no arquivo ``settings.xml`` indique quais repositórios dos perfis configurados deseja utilizar.
-```
+```xml
 <servers>
 
   ...
@@ -93,7 +93,7 @@ Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes 
 ```
 
 3. Por fim, indique no mesmo arquivo, qual perfil de configuração você deseja utilizar. Essa configuração, se feita no ``settings.xml``, aplíca-se à todos os projetos que o apontam. Se preferir, você pode informar diretamente no ``pom.xml`` dos seus projetos, quais perfis deseja usar.
-```
+```xml
 </settings>
 
   ...
