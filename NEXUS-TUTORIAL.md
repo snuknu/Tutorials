@@ -54,7 +54,7 @@ Após logar no Nexus é possível ver a lista de reposiórios criados por padrã
 ![image](https://github.com/user-attachments/assets/28b0e993-715f-4491-a5f7-d3d33ffcab6a)
 
 ## Deploy no Nexus com Maven.
-Existem varias formas de realiza o deploy de artefatos no Nexus, por meio da UI do nexus, ou por meio da execução dos goals do maven.
+Existem várias formas de realizar o deploy de artefatos no Nexus, por meio da UI do nexus, ou por meio da execução dos goals do maven.
 
 ### Configurando o Maven para deploy no Nexus.
 Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes passos devem ser seguidos:
