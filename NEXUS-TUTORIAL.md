@@ -87,8 +87,8 @@ Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes 
 
   <server>
     <id>identificador-do-repositorio</id>
-    <username>admin</username>
-    <password>1234</password>
+    <username>nome-do-usuario</username>
+    <password>senha-do-usuario</password>
   </server>
 
 </servers>
@@ -101,7 +101,7 @@ Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes 
   ...
 
   <activeProfiles>
-    <activeProfile>sansuy-profile</activeProfile>
+    <activeProfile>identificador-do-repositorio</activeProfile>
   </activeProfiles>
 
 </settings>
