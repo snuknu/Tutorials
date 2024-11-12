@@ -127,4 +127,4 @@ mvn deploy:deploy-file `
 "-Dversion=1.0" `
 "-DrepositoryId=identificador-do-repositorio"
 ```
-Obs: Use ``[espaço] + ``` para comandos multi-linha no shell, e ``[espaço] + /`` para comandos multi-linha no linux.
+Obs: Use ``[espaço] + ` `` para comandos multi-linha no shell, e ``[espaço] + /`` para comandos multi-linha no linux.
