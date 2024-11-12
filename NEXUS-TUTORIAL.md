@@ -3,9 +3,9 @@
 ## Download
 Os downloads do Sonatype Nexus Repository estão disponíveis em: [https://help.sonatype.com/en/download.html](https://help.sonatype.com/en/download.html).
 
-- Windows \n [https://download.sonatype.com/nexus/3/nexus-3.74.0-05-java17-win64.zip](https://download.sonatype.com/nexus/3/nexus-3.74.0-05-java17-win64.zip).
+- Windows: [https://download.sonatype.com/nexus/3/nexus-3.74.0-05-java17-win64.zip](https://download.sonatype.com/nexus/3/nexus-3.74.0-05-java17-win64.zip).
 
-- Unix \n [https://download.sonatype.com/nexus/3/nexus-3.74.0-05-unix.tar.gz](https://download.sonatype.com/nexus/3/nexus-3.74.0-05-unix.tar.gz).
+- Unix: [https://download.sonatype.com/nexus/3/nexus-3.74.0-05-unix.tar.gz](https://download.sonatype.com/nexus/3/nexus-3.74.0-05-unix.tar.gz).
 
 ## Configuração
 De acordo com a documentação oficial, o *Nexus* não deve ser instalado no diretório ``Arquivos de Programas``  para evitar problemas com a virtualização do registro de arquivos do Windows.
