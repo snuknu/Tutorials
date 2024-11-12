@@ -112,6 +112,7 @@ Um vez com o ``settings.xml`` do maven configurado, na raiz do seu projeto java,
 ```shell
 mvn deploy -DaltDeploymentRepository=id-do-repositorio::default::http://localhost:8081/repository/maven-releases/
 ```
+Você também pode executar esse goal a partir dos ciclos de vida configurados em sua IDE.
 
 ### Realizando o deploy de um artefato isolado.
 É possivel fazer o upload de artefatos isolados no nexus a partir do maven, para isso basta executar o seguinte comando:
