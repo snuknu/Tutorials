@@ -85,11 +85,11 @@ Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes 
 
   ...
 
-	<server>
-		<id>sansuy-repository</id>
-		<username>admin</username>
-		<password>Warp6460</password>
-	</server>
+  <server>
+    <id>identificador-do-repositorio</id>
+    <username>admin</username>
+    <password>1234</password>
+  </server>
 
 </servers>
 ```
@@ -100,9 +100,9 @@ Para realizar o deploy de projetos maven em um repositório Nexus, os seguintes 
 
   ...
 
-	<activeProfiles>
-		<activeProfile>sansuy-profile</activeProfile>
-	</activeProfiles>
+  <activeProfiles>
+    <activeProfile>sansuy-profile</activeProfile>
+  </activeProfiles>
 
 </settings>
 ```
