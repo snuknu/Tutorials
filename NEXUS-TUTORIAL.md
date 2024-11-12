@@ -29,11 +29,11 @@ Diretório de execução: ``..\nexus-3.74.0-05\bin``
 Iniciar o gerenciador de repositório com o comando run o deixará em execução no shell atual e exibirá a saída do log. Você pode acessar o aplicativo assim que o log mostrar a mensagem "Started Sonatype Nexus". O aplicativo em execução pode ser parado usando CTRL+Co console apropriado.
 
 ### Executar como *serviço*
-- ```/start```
-- ```/stop```
-- ```/restart```
-- ```/force-reload```
-- ```/status```
+- ```./nexus.exe /start```
+- ```./nexus.exe /stop```
+- ```./nexus.exe /restart```
+- ```./nexus.exe /force-reload```
+- ```./nexus.exe /status```
 
 O executável ``nexus.exe`` pode ser usado para gerenciar o Nexus como um serviço com os comandos listados acima.
 
